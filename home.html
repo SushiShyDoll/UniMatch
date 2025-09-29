@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UniMatch - Find Your Perfect Match</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Poppins', sans-serif; background: #f5f8fa; color: #333; }
+
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 { font-size: 2.5rem; margin-bottom: .5rem; }
+    header p { font-size: 1.2rem; }
+
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 1rem 1.5rem;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+    nav a:hover { background: #4a90e2; }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(135deg, #4a90e2, #7ed6df);
+      color: white;
+      text-align: center;
+    }
+    .hero h2 { font-size: 2.2rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1.1rem; margin-bottom: 2rem; max-width: 600px; }
+    .hero button {
+      background: white;
+      color: #4a90e2;
+      border: none;
+      padding: 1rem 2rem;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .hero button:hover { background: #333; color: white; }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 4rem 2rem;
+    }
+    .feature-card {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .feature-card:hover { transform: translateY(-5px); }
+    .feature-card h3 { margin-bottom: 1rem; color: #4a90e2; }
+
+    footer {
+      background: #4a90e2;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>UniMatch</h1>
+    <p>Connecting Students, Building Futures</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Match</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Find Your Perfect Match at University</h2>
+    <p>UniMatch helps students connect with peers, study buddies, and communities that match their interests and goals.</p>
+    <button>Get Started</button>
+  </section>
+
+  <section class="features">
+    <div class="feature-card">
+      <h3>Smart Matching</h3>
+      <p>AI-powered system to find study partners, friends, or groups with shared interests.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Community Events</h3>
+      <p>Join events, workshops, and meetups to expand your network and knowledge.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Secure & Private</h3>
+      <p>Your data and preferences are kept safe while you connect with verified students.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 UniMatch. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
